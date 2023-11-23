@@ -53,10 +53,10 @@ def fusionner_images(repertoire_entree, fichier_sortie, nombre_de_division):
     print(f"Fusion réussie. Image enregistrée sous {fichier_sortie}")
     print(f"{nombre_de_fichier_par_division}*{nombre_de_colone} = {nombre_de_fichier} images au total")
 
-# ----------------MODIFIER LES REPERTOIRE ICI----------------
+# ----------------Exemple d'utilisation----------------
 
-repertoire_entree = "map/Isometric/wall"
-fichier_sortie = "map/Isometric/wall.png"
+# repertoire_entree = "map/Isometric/wall"
+# fichier_sortie = "map/Isometric/wall.png"
 
-fusionner_images(repertoire_entree, fichier_sortie, 5)
+# fusionner_images(repertoire_entree, fichier_sortie, 5)
 
