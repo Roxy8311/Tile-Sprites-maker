@@ -11,7 +11,7 @@
 from PIL import Image
 import os
 
-def fusionner_images(repertoire_entree, fichier_sortie, nombre_de_division):
+def fusionner_images(repertoire_entree, fichier_sortie, nombre_de_division=2):
     images = []
     masks = []
     nombre_de_colone = nombre_de_division
